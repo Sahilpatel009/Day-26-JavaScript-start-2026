@@ -43,6 +43,19 @@
 
 // Q.6 Ask user for a number and say if it is  positive or negative .
 
-let num = prompt("Number Bolo");
-if (num > 0) console.log(`${num} - Positive`);
-else   console.log(`${num} - Negative`);
+// let num = prompt("Number Bolo");
+// if (num >= 0) console.log(`${num} - Positive`);
+// else console.log(`${num} - Negative`);
+
+// Ask user age and check if eligible to vote
+// if age = 18 -> Eligible ,else = not eligible.
+
+let age = +prompt("Apna Age Dalo");
+if (age >= 18){
+    console.log("You are Eligible");
+    
+}
+else{
+    console.log("You are Not Eligible");
+    
+}
