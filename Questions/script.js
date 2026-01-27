@@ -50,12 +50,44 @@
 // Ask user age and check if eligible to vote
 // if age = 18 -> Eligible ,else = not eligible.
 
-let age = +prompt("Apna Age Dalo");
-if (age >= 18){
-    console.log("You are Eligible");
-    
-}
-else{
-    console.log("You are Not Eligible");
-    
-}
+// let age = prompt("Apna Age Dalo");
+// if (age >= 18){
+//     console.log("You are Eligible");
+
+// }
+// else{
+//     console.log("You are Not Eligible");
+
+// }
+// if (age === null) {
+//     console.error("You Cancelled it");
+// }
+
+// Print multiplication table of 5 
+
+// for (let i = 1; i < 11; i++) {
+//     console.log(`5 X ${i} = ${5 * i}`);
+
+// }
+
+// count how many numbers  between 1 and 15 are greater than 8
+
+// let count = 0;
+// for (let i = 1; i < 16; i++) {
+//     if (i > 8) {
+//         count++;
+//     }
+// }
+// console.log(count);
+
+// Ask user for passward and print access status .
+
+// let passward = "sahilbhai";
+// let pass = prompt("Phle Passward dal laude");
+// if (passward === pass) {
+//     console.log("Bach gya madharchood Passward shi hai");
+// }
+// else {
+//     console.log("Tu to gya Beta Passward Galat hai 😁");
+
+// }
