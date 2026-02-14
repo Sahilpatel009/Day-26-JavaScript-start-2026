@@ -63,7 +63,7 @@
 //     console.error("You Cancelled it");
 // }
 
-//Q.8 Print multiplication table of 5 
+//Q.8 Print multiplication table of 5
 
 // for (let i = 1; i < 11; i++) {
 //     console.log(`5 X ${i} = ${5 * i}`);
@@ -94,9 +94,40 @@
 
 // Q.11 Level 2 question ----->>>
 
-// Allow only 3 attemps  to enter correct password 
+// Allow only 3 attemps  to enter correct password
 // if user get it right early stop.
 // if not --> Account locked.
 
-let pass = prompt("Password de do");
-while (pass !== stop) { }
+// let pass = prompt("Password de do");
+// while (pass !== stop) { }
+
+
+// Basic to advance 100 questions
+
+// 1. Create two variables for your full name and favorite hobby. Print:
+// "My name is <name> and my hobby is <hobby>"
+
+// let a = "sahil";
+// let b = "Developer";
+// console.log(`My name is ${a} and my hobby is ${b}`);  ✔️
+
+// 2. Perform the calculation 45 * 2 - 10 and print the result
+
+// console.log(45*2-10);  ✔️
+
+// 3. Print the current year using JavaScript's Date object
+
+// const currentyear = new Date().getFullYear();
+// console.log(currentyear);
+// let now = new Date();
+
+// let date = now.getDate();
+// let month = now.getMonth() + 1; // We add 1 because Jan is 0
+// let year = now.getFullYear();
+// let hours = now.getHours();
+// let minutes = now.getMinutes();
+
+// console.log(`Today is ${date}/${month}/${year} and the time is ${hours}:${minutes}`);
+
+// 4. Store first name and last name separately and print the full name.
+
