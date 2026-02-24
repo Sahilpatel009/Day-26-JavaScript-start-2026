@@ -1,7 +1,9 @@
 
-function add(a, b) {
+function add() {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
 
-    console.log(a / b);
+    }
 
 }
-add(20, 10);
+add();
