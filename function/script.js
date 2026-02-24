@@ -1,21 +1,7 @@
-// function dance() {
-//     console.log("lets dance");
-//     console.log("lets dance");
-//     console.log("lets dance");
-//     console.log("lets dance");
-//     console.log("lets dance");
-//     console.log("lets dance");  
-// }
-// dance();
-// dance();
-// dance();
-// dance();
-// dance();
-// dance();
 
-function add(name, age) {
+function add(a, b) {
 
-    console.log(`my name is ${name} and i am ${age} year old`);
+    console.log(a + b);
 
 }
-add('sahil', 20);
+add(20, 10);
