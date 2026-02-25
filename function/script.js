@@ -1,12 +1,7 @@
-function isPrime(num) {
-    if (num <= 1) 
-        return false;
-    for (let i = 2; i < num; i++) 
-    {
-        if (num % i === 0) 
-            return false;
-    }
-    return true;
+function mergeArrays(arr1, arr2) {
+    // this method merges all the elements 
+    // of arr2 at the end of arr1.
+    return arr1.concat(arr2);
 }
 
-console.log(isPrime(7));
+console.log(mergeArrays([5, 6], [7, 8]));
