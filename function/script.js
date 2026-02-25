@@ -1,12 +1,5 @@
-Number.isNaN(NaN)            
-Number.isNaN("foo")           
-isNaN("foo")               
-
-Number.isNaN(undefined)   
-isNaN(undefined)             
-
-Number.isNaN("")          
-isNaN("")           
-
-Number.isNaN(0/0)   
-isNaN(0/0)                 
+// Initialize an array
+let arr = [5, 6, 7];
+arr = arr.slice(1); 
+// Create a new array without the first element
+console.log(arr);
