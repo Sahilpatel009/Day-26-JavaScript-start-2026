@@ -1,9 +1,12 @@
+Number.isNaN(NaN)            
+Number.isNaN("foo")           
+isNaN("foo")               
 
-function add() {
-    for (let i = 1; i <= 100; i++) {
-        console.log(i);
+Number.isNaN(undefined)   
+isNaN(undefined)             
 
-    }
+Number.isNaN("")          
+isNaN("")           
 
-}
-add();
+Number.isNaN(0/0)   
+isNaN(0/0)                 
