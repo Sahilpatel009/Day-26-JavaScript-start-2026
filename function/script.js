@@ -1,3 +1,3 @@
-const a = true, b = false;
-console.log(a && b); // Logical AND
-console.log(a || b); // Logical OR
+const big1 = 123456789012345678901234567890n;
+const big2 = 987654321098765432109876543210n;
+console.log(big1 + big2);
