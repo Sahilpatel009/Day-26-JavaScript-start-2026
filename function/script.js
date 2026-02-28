@@ -1,4 +1,4 @@
-const greet = function(name) {
-    return `Hello, ${name}!`;
+const sum = function(a, b) {
+    return a + b;
 };
-console.log(greet("Steven"));
+console.log(sum(5, 3));
