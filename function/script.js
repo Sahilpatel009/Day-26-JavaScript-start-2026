@@ -1,17 +1,29 @@
 class Dog {
-    constructor(name, breed) {
-      
-        // instance property  
-        this.name = name;   
-        this.breed = breed; 
-    }
+  constructor(name) {
+    this.name = name;
+  }
 
-    // defining method
-    bark() {
-        console.log(`${this.name} says woof!`);
-    }
+  // Getter method
+  get dogName() {
+    return this.name;
+  }
+
+  // Setter method
+  set dogName(newName) {
+    this.name = newName;
+  }
+
+  // Regular method
+  bark() {
+    console.log(`${this.name} says woof!`);
+  }
 }
 
-// creating an object (instance)
-const myDog = new Dog("Rayne", "Husky");
+// creating an object
+let myDog = new Dog('Rayne');
+console.log(myDog.name);
+
+myDog.dogName = 'Buddy';
+console.log(myDog.name);
+
 myDog.bark();
