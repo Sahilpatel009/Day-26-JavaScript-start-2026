@@ -7,4 +7,3 @@ const product = {
   offer: 5,
 };
 console.log(product);
-
