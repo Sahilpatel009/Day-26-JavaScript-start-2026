@@ -1,29 +1,10 @@
-class Dog {
-  constructor(name) {
-    this.name = name;
-  }
+const product = {
+  name: "pen",
+  color: "black",
+  rating: 4,
+  dod: true,
+  price: 270,
+  offer: 5,
+};
+console.log(product);
 
-  // Getter method
-  get dogName() {
-    return this.name;
-  }
-
-  // Setter method
-  set dogName(newName) {
-    this.name = newName;
-  }
-
-  // Regular method
-  bark() {
-    console.log(`${this.name} says woof!`);
-  }
-}
-
-// creating an object
-let myDog = new Dog('Rayne');
-console.log(myDog.name);
-
-myDog.dogName = 'Buddy';
-console.log(myDog.name);
-
-myDog.bark();
