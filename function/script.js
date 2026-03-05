@@ -1,19 +1,24 @@
-<<<<<<< HEAD
-let a = prompt("enter number to chech even or odd");
-if (a % 2 == 0) {
-  console.log(`${a} is Even Numbe`);
+let a = prompt("Enter your number to show your grade");
+let grade;
+let result;
+if (a >= 90 && a < 100) {
+  grade = "A";
+  result = "Excellent";
 }
-else {
-  console.log(`${a} is Odd Number`);
-
+else if (a >= 70 && a <= 89) {
+  grade = "B";
+  result = "Good";
 }
-=======
-let a = prompt("enter a number to chech number is a multiple of 5 or not");
-if (a % 5 == 0) {
-  console.log(`Yes ${a} is a multiple of 5`);
+else if (a >= 60 && a <= 69) {
+  grade = "C";
+  result = "Average";
 }
-else {
-  console.log(`No ${a} is not a multiple of 5`);
-
+else if (a >= 50 && a <= 59) {
+  grade = "D";
+  result = "Below Average";
 }
->>>>>>> f872aca
+else if (a >= 0 && a <= 49) {
+  grade = "F";
+  result = "Fail";
+}
+console.log(`According to your score, your grade is: ${grade} and your result is: ${result}`);
