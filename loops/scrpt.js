@@ -10,6 +10,7 @@ for (i = 0; i <= 100; i++) {
     else {
         console.log(`${i} is a Odd number`);
         odd++;
+        
     }
 }
 console.log(`Total Even number are = ${even}`);
