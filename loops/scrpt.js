@@ -14,6 +14,5 @@ for (i = 0; i <= 100; i++) {
     }
 }
 console.log(`Total Even number are = ${even}`)
-console.log(`Total Odd number are = ${odd}`)
-
+console.log(`Total Odd number are = ${odd}`);
 
