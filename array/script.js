@@ -11,10 +11,20 @@
 
 // method pop 
 
-let car = ["batman", "superman", "spiderman", "ironman"]
-// car.pop();
-// car.push("sahil");
-// car.shift();
-// car.unshift("Thor the papa");
-car.length;
-console.log(car);
+let heroes = ["batman", "superman", "spiderman", "ironman"]
+
+let item = ["apple", "pen", "potato", "coldrink", "knife"]
+
+// heroes.pop();
+// heroes.push("sahil");
+// heroes.shift();
+// heroes.unshift("Thor the papa");
+
+let alltogethor = heroes.concat(item);
+
+// heroes.length;
+// item.length;
+
+// console.log(heroes);
+// console.log(item);
+console.log(alltogethor);
