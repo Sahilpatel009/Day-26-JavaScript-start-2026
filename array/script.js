@@ -35,7 +35,7 @@
 let companies = ['Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Netflix']
 
 companies.pop();
-companies.splice(2, 2, 'Ola');
+companies.splice(2, 1, 'Ola');
 companies.push('Amazon');
 
 
