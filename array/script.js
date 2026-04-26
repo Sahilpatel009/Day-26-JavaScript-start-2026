@@ -11,20 +11,32 @@
 
 // method pop 
 
-let heroes = ["batman", "superman", "spiderman", "ironman"]
+// let heroes = ["batman", "superman", "spiderman", "ironman"]
 
-let item = ["apple", "pen", "potato", "coldrink", "knife"]
+// let item = ["apple", "pen", "potato", "coldrink", "knife"]
 
-// heroes.pop();
-// heroes.push("sahil");
-// heroes.shift();
-// heroes.unshift("Thor the papa");
+// // heroes.pop();
+// // heroes.push("sahil");
+// // heroes.shift();
+// // heroes.unshift("Thor the papa");
 
-let alltogethor = heroes.concat(item);
+// let alltogethor = heroes.concat(item);
 
-// heroes.length;
-// item.length;
+// // heroes.length;
+// // item.length;
 
-// console.log(heroes);
-// console.log(item);
-console.log(alltogethor);
+// // console.log(heroes);
+// // console.log(item);
+// console.log(alltogethor);
+
+
+// array practice questions 
+
+let companies = ['Bloomberg', 'Microsoft', 'Uber', 'Google', 'IBM', 'Netflix']
+
+companies.pop();
+companies.splice(2, 2, 'Ola');
+companies.push('Amazon');
+
+
+console.log(companies);
