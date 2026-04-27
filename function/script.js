@@ -13,8 +13,28 @@
 
 // vowel count from text charatcer
 
-function countVowel(str) {
+// function countVowel(str) {
+//   let count = 0;
+//   for (const char of str) {
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "o" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// countVowel("sahil");
+
+// vowel count from text charatcer
+
+const countVowel = (str) => {
   let count = 0;
+
   for (const char of str) {
     if (
       char === "a" ||
@@ -27,5 +47,4 @@ function countVowel(str) {
     }
   }
   return count;
-}
-countVowel("sahil");
+};
